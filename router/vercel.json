@@ -1,16 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/join/",
-      "destination": "https://edugram-marketing.vercel.app/join"
-    },
-    {
       "source": "/join/:match*",
       "destination": "https://edugram-marketing.vercel.app/join/:match*"
-    },
-    {
-      "source": "/",
-      "destination": "https://edugram-app.vercel.app/"
     },
     {
       "source": "/:match*",
