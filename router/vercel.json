@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    { "source": "/join/", "destination": "https://marketing.vercel.app/" },
+    {
+      "source": "/join/:match*",
+      "destination": "https://marketing.vercel.app/:match*"
+    },
+
+    { "source": "/", "destination": "https://app.vercel.app/" },
+    { "source": "/:match*", "destination": "https://app.vercel.app/:match*" }
+  ]
+}
