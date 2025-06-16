@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/join/:match*",
-      "destination": "https://edugram-marketing.vercel.app/join/:match*"
+      "destination": "https://edugram-marketing.vercel.app/:match*"
     },
     {
       "source": "/:match*",
