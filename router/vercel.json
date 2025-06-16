@@ -2,20 +2,19 @@
   "rewrites": [
     {
       "source": "/join/",
-      "destination": "https://monorepo-next-js-gray.vercel.app/"
+      "destination": "https://edugram-marketing.vercel.app/join"
     },
     {
       "source": "/join/:match*",
-      "destination": "https://monorepo-next-js-gray.vercel.app/:match*"
+      "destination": "https://edugram-marketing.vercel.app/join/:match*"
     },
-
     {
       "source": "/",
-      "destination": "https://monorepo-next-js-gray.vercel.app/"
+      "destination": "https://edugram-app.vercel.app/"
     },
     {
       "source": "/:match*",
-      "destination": "https://monorepo-next-js-gray.vercel.app/:match*"
+      "destination": "https://edugram-app.vercel.app/:match*"
     }
   ]
 }
